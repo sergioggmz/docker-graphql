@@ -28,4 +28,4 @@ jobs:
           docker build -t sergioggmz/docker-graphql:0.0.2 .
       - name: Push Docker Image
         run: |
-          docker push sergioggmz/docker-graphql:0.0.2 .
+          docker push sergioggmz/docker-graphql:0.0.2
