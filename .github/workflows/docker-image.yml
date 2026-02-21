@@ -22,7 +22,6 @@ jobs:
           major_pattern: "major:"
           minor_pattern: "feat:"
           format: "${major}.${minor}.${patch}-prerelease${increment}"
-          enable_prerelease_mode: true
         id: version
 
       - name: Docker login
